@@ -33,25 +33,6 @@ class ViewController: UIViewController {
 		print("1 hello")
 	}
 	
-//	func squareOfNumber(number: Double) {
-//		let result = number * number
-//		print("square of \(number) = \(result)")
-//	}
-	
-//	func squareOfNumber5() -> Double {
-//		let number: Double = 5
-//		let result = number * number
-//		print("square of \(number) = \(result)")
-//		return result
-//	}
-//
-//	func squareOfNumber3() -> Double {
-//		let number: Double = 3
-//		let result = number * number
-//		print("square of \(number) = \(result)")
-//		return result
-//	}
-	
 	func squareOfNumber(number: Double) -> Double {
 		let result = number * number
 		print("square of \(number) = \(result)")
@@ -68,11 +49,6 @@ class ViewController: UIViewController {
 //		move(stepsCount: 56)
 	}
 	
-//	func move(_ stepsCount: Int) {
-//		for _ in 0..<stepsCount {
-//			print("move")
-//		}
-//	}
 	
 	func move(_ stepsCount: Int, turnsCout: Int = 0) {
 		for _ in 0..<stepsCount {
